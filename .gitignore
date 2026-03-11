@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Outputs
+outputs/*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docking artifacts
+*.pdbqt
+*.dlg
+*.map
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
